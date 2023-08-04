@@ -83,6 +83,10 @@ header nav ul li a:hover {
 #e{
 	color: #0062cc;
 }
+.icons i{
+	font-size: 35pt;
+	padding: 10px;
+}
 .super {
 	background-image: url('hero.jpg');
 	background-size: cover;
