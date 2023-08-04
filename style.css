@@ -1,0 +1,154 @@
+/* Estilos gerais */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/* Estilos do cabeçalho */
+header {
+	background-color: #f8f9fa;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-weight: bold;
+}
+
+/* Estilos da seção de herói */
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center center;
+	padding: 100px 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.hero h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.cta-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 4px;
+	transition: all 0.2s ease-in-out;
+}
+
+.cta-btn:hover {
+	background-color: #0062cc;
+}
+
+/* Estilos da seção de recursos */
+.features {
+	padding: 80px 20px;
+	background-color: #f8f9fa;
+}
+
+.features h2 {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.feature {
+	margin-bottom: 40px;
+}
+
+.feature img {
+	width: 100%;
+	height: auto;
+}
+
+.feature h3 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.feature p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Estilos da seção de chamada para ação */
+.cta {
+	padding: 80px 20px;
+	background-color: #007bff;
+	color: #fff;
+	text-align: center;
+}
+
+.cta h2 {
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.cta input,
+.cta textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 4px;
+}
+
+.cta button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #fff;
+	color: #007bff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.cta button:hover {
+	background-color: #007bff;
+	color: #fff;
+}
+
+/* Estilos do rodapé */
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: #f8f9fa;
+	color: #333;
+}
