@@ -23,7 +23,10 @@ ul {
 
 /* Estilos do cabeçalho */
 header {
-	background-color: #f8f9fa;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #000000;
 	padding: 20px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -31,7 +34,7 @@ header {
 nav ul {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 }
 
 nav li {
@@ -41,23 +44,61 @@ nav li {
 nav a {
 	font-weight: bold;
 }
+header nav ul li a:hover {
+	color: #ff0000;
+}
 
 /* Estilos da seção de herói */
 .hero {
-	background-image: url('hero.jpg');
+	background-image: url('img/82476-abstract-digital-art-hd-low-poly-artist-artwork.jpg');
+	background-position: center;
 	background-size: cover;
-	background-position: center center;
-	padding: 100px 20px;
-	text-align: center;
-	color: #fff;
+	max-width: 98.75vw;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 220px;
+	flex-direction: column;
+	text-align: left;
+	text-justify: auto;
+	height: 100vh;
+	width: 100vw;
+	color: #ffffff;
 }
 
 .hero h1 {
-	font-size: 50px;
-	margin-bottom: 20px;
+	font-size: 32pt;
+	margin-bottom: 10px;
 }
 
 .hero p {
+	font-size: 20pt;
+	margin-bottom: 40px;
+}
+
+.hero span{
+	color: #ff0000;
+}
+#e{
+	color: #0062cc;
+}
+.super {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center center;
+	padding: 100px 100px;
+	text-align: left;
+	text-justify: auto;
+	color: #000000;
+}
+
+.super h1 {
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.super p {
 	font-size: 20px;
 	margin-bottom: 40px;
 }
@@ -152,3 +193,17 @@ footer {
 	background-color: #f8f9fa;
 	color: #333;
 }
+
+@media only screen and (max-width: 768px) {
+	header {
+		flex-direction: column;
+		height: auto;
+		padding: 20px;
+	}
+	body{
+		flex-direction: column;
+		height: auto;
+		padding: 20px;
+	}
+}
+
