@@ -1,105 +1,152 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Sidemar Dev Portofolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<img src="img/Logo.png" alt="Logo" height="50px">
-		<nav>
-			<ul>
-				<li><a href="#">Início</a></li>
-				<li><a href="#">Sobre Mim</a></li>
-				<li><a href="#">Habilidades</a></li>
-				<li><a href="#">Projetos</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="hero">
-			<h1> <span id="e">Hello</span> People! <br> Me chamo <span>Sidemar</span> <span id="e">Rosa</span></h1>
-			<p>  Desenvolvedor <span>Full-Stack</span> com foco em <span id="e">Front-end</span> & <br>
-				<span> UX </span>/ <span id="e">UI</span>  Designer 
-		 </p>
-		 <div class="icons">
-			<a href="https://www.linkedin.com/in/sidemarrosa25/" target="_blank"> 
-				<i class="fa-brands fa-linkedin" style="color:#0062cc;">
-				</i>
-			</a>
-
-			<a href="https://github.com/SidemarRosa" target="_blank">
-				<i class="fa-brands fa-github" style="color: #ff0a0a;">
-				</i>
-			</a>
-		 
-		 </div>
-		 
-		</section>
-		<section class="super">
-			<div class="superesq">
-				<div class="foto">
-					
-				</div>
-			</div>
-			<div class="superdir">
-					<article>
-						<h3> Sobre min</h3>
-						<p>
-							Me chamo Sidemar, tenho 24 anos. <br>
-Desenvolvedor Full-Stack, amante da musica, <br>
-ex-atleta de basquete, entusiasta no mundo da tecnologia, cursando análise e desenvolvimento de sistemas atualmente no 3° semestre, atuo com foco em desenvolvimento de sites empresáriais, landing pages, 
-portfólios & e-comerce.
-						</p>
-					</article>
-			</div>
-		</section>
-		<section class="habilidades">
-			<div class="descricaoHabilidades">
-				<div class="presentation">
-					<h1>Habilidades</h1>
-					<ul> 
-						<li>Desenvolvimento web - Html,Css, Js & Designs responsivos</li>
-						<li>Frameworks - React, Angular
-							Vue.js & Bootstrap</li>
-						<li>Modelagem Software</li>
-						<li>Desing - UX/UI</li>
-						<li>Logíca de programação</li>
-						<li>Versionamento de código - Git/Github</li>
-						<li>CleanCode</li>
-						<li>Integração de APIs</li>
-						<li>metodologias ágeis - Scrum/Kanban </li>
-						<li>Banco de dados - MongoDb, MySql & NoSql</li>
-						<li> Linguagens de programação- C, Java, JavaScript, Python, Php e TypeScript</li>
-					</ul>
-				</div>
-				<div class="grid">
-					<div class="slot"> 
-						<i class="fa-brands fa-java fa-2xl" style="color: #ffffff;"> </i> </div>
-					<div class="slot"><i class="fa-brands fa-js" style="color: #FFD600;"></i></div>
-					<div class="slot"><i class="fa-brands fa-github" style="color: #1e1e1e;">
-					</i></div>
-					<div class="slot"> <i class="fa-brands fa-vuejs" style="color: #42b883;"></i></div>
-					<div class="slot"><i class="fa-brands fa-bootstrap" style="color: #6c2988;"></i></div>
-					<div class="slot"><i class="fa-brands fa-react" style="color: #61DBFB;"></i></div>
-					<div class="slot"><i class="fa-brands fa-angular" style="color:  #B52E31;"></i></div>
-					<div class="slot"><i class="fa-brands fa-html5" style="color: #E34C26;"></i></div>
-					<div class="slot"><i class="fa-brands fa-css3-alt" style="color:#264de4 ;" ></i></div>
-				</div>
-			</div>
-		</section>
-
-	</main>
-	<footer>
-		<p>&copy; 2023. Todos os direitos reservados.</p>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://wa.me/5551998681563?text=Marcar%20Consulta!" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;	z-index:1000;" target="_blank">
-    	<i style="margin-top:16px" class="fa fa-whatsapp"></i>
-        </a>
-	</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidemar Dev Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/css/logo.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="assets/css/logo.png" alt="Logo" height="50px" />
+      <nav>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Mim</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Projetos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container">
+        <p>
+          Hello People!!
+          <br />
+          Me chamo <span>Sidemar Rosa</span>
+          <br />
+          Desenvolvedor <span>Full-Stack</span> com foco em
+          <span> Front-end </span>
+        </p>
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/sidemarrosa25/" target="_blank">
+            <i class="fa-brands fa-linkedin" style="color: #0062cc"> </i>
+          </a>
+          <a href="https://github.com/SidemarRosa" target="_blank">
+            <i class="fa-brands fa-github" style="color: #ff0a0a"> </i>
+          </a>
+        </div>
+      </section>
+      <section class="containerB">
+        <div class="esq">
+          <div class="foto">
+            <img
+              src="assets/css/fd8ebb87-5d91-4391-ad0e-a176a7de271a (1).jpg"
+              alt="foto sidemar"
+            />
+          </div>
+        </div>
+        <div class="dir">
+          <article>
+            <h3>Sobre min</h3>
+            <p>
+              Me chamo Sidemar, tenho 25 anos.
+              <br />
+              Desenvolvedor Full-Stack, amante da musica, ex-atleta
+              <br />
+              de basquete, entusiasta no mundo da tecnologia, amo apreender e
+              descobrir novos horizontes, cursando análise e desenvolvimento de
+              sistemas atualmente no 3° semestre, atuo com foco em
+              desenvolvimento de sites e sistemas web.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="containerC">
+        <div class="habilidades">
+          <div class="descricao">
+            <h1>Habilidades</h1>
+            <ul>
+			  <li>Design - UX & UI</li>
+              <li>Logíca de programação</li>
+			  <li>Modelagem Software</li>
+			  <li>CleanCode</li>
+              <li>Desenvolvimento Web - Html, Css, Js & Designs responsivos</li>
+              <li>Frameworks - React, Angular & Bootstrap</li>
+              <li>Versionamento de código - Git & Github</li>
+              <li>Integração de API's</li>
+              <li>Metodologias ágeis - Scrum & Kanban</li>
+              <li>Banco de dados - MongoDb, MySql & NoSql</li>
+              <li>Linguagens de programação - C, Java, JavaScript & TypeScript</li>
+            </ul>
+          </div>
+          <div class="grade">
+            <div class="slot">
+              <i class="fa-brands fa-java fa-2xl" style="color: #ffffff"> </i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-js" style="color: #ffd600"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-github" style="color: #1e1e1e"> </i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-vuejs" style="color: #42b883"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-bootstrap" style="color: #6c2988"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-react" style="color: #61dbfb"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-angular" style="color: #b52e31"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-html5" style="color: #e34c26"></i>
+            </div>
+            <div class="slot">
+              <i class="fa-brands fa-css3-alt" style="color: #264de4"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023. Todos os direitos reservados.</p>
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+      />
+      <a
+        href="https://wa.me/5551998681563?text=Marcar%20Consulta!"
+        style="
+          position: fixed;
+          width: 60px;
+          height: 60px;
+          bottom: 40px;
+          right: 40px;
+          background-color: #25d366;
+          color: #fff;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 1px 1px 2px #888;
+          z-index: 1000;
+        "
+        target="_blank"
+      >
+        <i style="margin-top: 16px" class="fa fa-whatsapp"></i>
+      </a>
+    </footer>
+	<script src="script.js">
+		
+	</script>
+  </body>
 </html>
